@@ -15,7 +15,7 @@ const config = {
       'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
       'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
       'eol-last': ['error', 'always'],
-      'indent': ['error', 2]
+      'indent': ['error', 4]
     }
   };
   

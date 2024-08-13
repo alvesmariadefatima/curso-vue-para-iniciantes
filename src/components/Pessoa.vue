@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h2>Esta é a descrição da pessoa: {{ nome }}</h2>
-    <Info />
+    <!-- <h2>Esta é a descrição da pessoa: {{ nome }}</h2> -->
+    <Info :email="email" :esta_trabalhando=true />
     <Form />
   </div>
 </template>
@@ -18,7 +18,8 @@ export default {
   },
   data () {
     return {
-      nome: 'João'
+      nome: 'Maria de Fátima',
+      email: 'mnunesalves334@gmail.com'
     }
   }
 }

@@ -12,8 +12,14 @@ export default {
   },
   created () {
     setTimeout(() => {
-      this.nome = 'Pedro'
+      this.nome = 'Maria de Fátima'
     }, 2000)
+    this.LifeCycle()
+  },
+  methods: {
+    LifeCycle () {
+      console.log('Executou')
+    }
   },
   mounted () {
     this.nome = 'Maria'
